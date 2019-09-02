@@ -1,0 +1,41 @@
+figure
+{
+	text-align: center;
+}
+img
+{
+	width: 1500px;
+	height: 800px;
+}
+#titulo
+{
+	font-family: Tahoma;
+	font-size: 36px;
+	font-weight: bold;
+	color: #4682B4;
+	position: relative;
+	left: 250px;
+	top: -768px;
+}
+pre	
+{
+	font-family: Tahoma;
+	font-size: medium;
+	color: #FFFFFF;
+	position: relative;
+	left: 650px;
+	top: -750px;
+}
+#columna
+{
+	position: relative;
+	float: left;
+	left: 200px;
+	width: 23%;
+	border-style: solid;
+	border-color: #000080;
+	top: -450px;
+	text-align: center;
+	font-family: Tahoma,Geneva,sans-serif;
+	color: #FFFFFF;
+}
