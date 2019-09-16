@@ -1,0 +1,222 @@
+body
+{
+	background: url(Images/fondo1.jpg);
+	font-family: Tahoma,Geneva,sans-serif;
+	font-size: 20px;
+}
+#imgheader
+{
+	float: right;
+	max-width: 100px;
+	margin-right: 3%; 
+	margin-top: 0.5%;
+}
+h1
+{
+	font-family: Impact, sans-serif;
+	-webkit-text-fill-color: transparent;
+	background: -webkit-linear-gradient(#33A37B,#DBF0E5);
+	-webkit-background-clip: text;
+	-webkit-text-stroke: 1.3px black;
+	font-size: 50px;
+	margin-left: 5%;
+	margin-top: 2%;
+	padding-top: 1%;
+}
+header
+{
+	width: 100%;
+	height: 110px;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(	
+#A8A8A8));
+
+}
+nav
+{
+	
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#8EDABD),to(	
+#086A3A));
+	overflow: hidden;
+	padding: 10px;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0 50px 0 10px;
+}
+nav ul li
+{
+	
+	float: left;
+	font-size:100%;
+	font-family: Tahoma,Geneva,sans-serif;
+	font-weight: bold;
+	margin-right: 40px;
+	text-align: center;
+
+}
+nav ul li a:hover
+{
+	color: #D5E2DD;
+}
+nav ul li a
+{
+	color: #07301C;
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	transition: 0.4 linear all;
+}
+#video1
+{
+	display: block;
+	font-family: Tahoma,Geneva,sans-serif;
+	margin-left:2.2%;
+	margin-right: 2.2%;
+	background-color: #83B4A1;
+	float: left;
+	width: 510px;
+	height: 510px;
+border: 2px solid #000;
+}
+video
+{
+	margin-left: 0.6%;
+	margin-top: 0.6%; 
+}
+#arti1
+{
+	display: block;
+	font-family: Tahoma,Geneva,sans-serif;
+	margin-left:560px;
+	margin-right: 3%;
+	background-color: #83B4A1;
+	text-align: justify;
+	padding: 10px;
+	font-size: 15px;
+	border: 2px solid #000;
+}
+section
+{
+	margin-top: 2%;
+	margin-left: 7%;
+	margin-right: 7%;
+	background-color: #CEFEEC;	
+	padding: 10px;
+	height: 580px;
+}
+footer
+{
+	font-family: Tahoma,Geneva,sans-serif;
+	text-align: center;
+	font-weight: bold;
+	border-top: 2px solid #000;
+	margin-top: 1%;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 10px;
+}
+#img1
+{
+	float: center;
+	width: 250px;
+	margin-left: 20%;
+}
+.banner
+{
+	width: 500px;
+	margin-left: 2%;
+	height: 500px;
+	border: 2px solid #000;	
+	background-size: 100% 100%;
+	animation: banner 10s infinite;
+	
+	
+
+}
+
+	@keyframes banner
+	{
+		0%, 20%
+		{
+			background-image: url(Images/popfood.jpg);	
+		}
+		40%, 60%
+		{
+			background-image: url(Images/finite.jpg);
+		}
+		80%, 100%
+		{
+			background-image: url(Images/hilo.jpg);
+		}
+	}
+figcaption
+{
+	text-align: center;
+
+}
+#bann
+{
+	margin-top: 2%;
+	margin-left: 30%;
+	margin-right: 18%;
+	background-color: #CEFEEC;	
+	padding: 3px;
+	padding-right: 10px;
+	height: 530px;
+	width: 40%;
+}
+#anuncio
+{
+	float: right;
+	width: 280px;
+	height: 500px;
+	margin-top:3%;
+	margin-right: 3%;
+}
+aside li
+{
+	list-style: none;
+	padding: 2px;
+}
+#redes
+{
+	background-color: #6EBA9E;
+	float: left;
+	margin-left: 7%;
+	width: 250px;
+	margin-top:3%;
+	height: 500px;
+	border: 3px solid #000;
+}
+aside h3
+{
+	margin-left: 7%;
+}
+aside li a
+{
+	text-decoration: none;
+	color: #000;
+}
+aside li a:hover
+{
+	color: #D5E2DD;
+} 
+
+#cerrar
+{
+float: right;
+width: 5px;
+margin-top:3%;
+margin-right: -20.4%;
+padding: 2px;
+}
+#inf
+{
+	float: right;
+width: 5px;
+margin-top:3%;
+margin-right: -0.5%;
+padding: 2px;
+}
